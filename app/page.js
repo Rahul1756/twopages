@@ -1,10 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import Navbar
- from "./ui/components/global-nav";
+// import Navbar from "./ui/components/global-nav";
+// import Footer from "./ui/components/global-footer";
 
- import Footer from "./ui/components/global-footer";
+import { Navbar ,Footer } from "@/components/shared/global-component";
+
 export default function Home() {
+ 
+
   return (
     <main className=" min-h-screen ">
      <Navbar />
@@ -29,6 +32,9 @@ export default function Home() {
      <div className="p-24">
  
   {/* About Us Content */}
+
+  
+ 
   <div className="mb-8">
     <h2 className="text-2xl font-bold mb-4">About Us</h2>
     <p className="mb-4">

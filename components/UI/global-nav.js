@@ -29,6 +29,14 @@ const Navbar = () => {
                   
                 </Link>
               </li>
+
+              <li>
+                <Link href="/login" className="text-gray-900 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">
+                
+                    Login
+                  
+                </Link>
+              </li>
             </ul>
           
           

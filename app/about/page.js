@@ -1,7 +1,7 @@
 // `app/dashboard/page.js` is the UI for the `/dashboard` URL
-import Footer from "../ui/components/global-footer";
-import Navbar
- from "../ui/components/global-nav";
+import { Navbar ,Footer } from "@/components/shared/global-component";
+ import Link from "next/link";
+
  
 export default function About() {
   return (
